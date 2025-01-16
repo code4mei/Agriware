@@ -10,3 +10,6 @@ Update `Settings.py` file ie. include all applications in `INSTALLED_APPS`.
 Add `templates` file to `DIRS` List present in `settings.py`.
 
 Note: `/ == ''`  ie.(empty space)
+
+## Learning Notes
+- Refer to Bootstrap website to check colors supported by Bootstrap.
