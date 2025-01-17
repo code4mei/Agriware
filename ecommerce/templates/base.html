@@ -28,6 +28,11 @@
 
   <!-- Main CSS File -->
   <link href="static/assets/css/main.css" rel="stylesheet">
+  <style>
+    .custom-green {
+        color:rgb(31, 245, 11) !important; /* Forces the color to override Bootstrap */
+    }
+</style>
 </head>
 
 <body class="index-page">
@@ -38,7 +43,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="static/assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Agriware</h1>
+        <h1 class="sitename custom-green">Agriware</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -55,8 +60,8 @@
               <li><a href="#">Logout</a></li>
             </ul>
           </li>
-          <li><a href="/contact" class="active">Contact</a></li>
-          <li><a href="" class="active">Cart</a></li>
+          <li><a href="" class="active p-2 bg-success">Cart</a></li>
+          <li><a href="/contact" class="active p-2 bg-secondary">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
