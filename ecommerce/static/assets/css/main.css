@@ -1414,6 +1414,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .team .team-member .social a {
