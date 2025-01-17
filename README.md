@@ -9,6 +9,8 @@ Update `Settings.py` file ie. include all applications in `INSTALLED_APPS`.
 
 Add `templates` file to `DIRS` List present in `settings.py`.
 
+Add `STATICFILES_DIRS` in `settings.py`Folder to load static files of your project.
+
 Note: `/ == ''`  ie.(empty space)
 
 ## Learning Notes
