@@ -4,6 +4,8 @@ from django.shortcuts import render,redirect
 def signup(request):
     if(request.method=="POST"):
         print("it is post request")
+    else:
+        print("It is a get method")
     return render(request,"signup.html")
 
 def handlelogin(request):
