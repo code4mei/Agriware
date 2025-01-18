@@ -12,3 +12,6 @@ def about(request):
 
 def prediction(request):
     return render(request,"prediction.html")
+
+def index1(request):
+    return render(request,"index1.html")
