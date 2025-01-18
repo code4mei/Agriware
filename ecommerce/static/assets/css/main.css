@@ -938,7 +938,7 @@ section,
 .services .service-item:hover h4 a,
 .services .service-item:hover .icon i,
 .services .service-item:hover p {
-  color: var(--contrast-color);
+  color: var(--text-color);
 }
 
 .services .service-item:hover:before {
