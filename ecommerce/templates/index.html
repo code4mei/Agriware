@@ -1,1 +1,314 @@
 {% extends "base.html" %}
+{% block title %}
+Agriware
+{% endblock title %}
+{% block body %}
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Portfolio</h2>
+      <p><span>Check Our</span> <span class="description-title">Portfolio</span></p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-product">Card</li>
+          <li data-filter=".filter-branding">Web</li>
+        </ul><!-- End Portfolio Filters -->
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Product 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Branding 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Product 2</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Branding 2</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Product 3</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="static/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Branding 3</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="static/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+        </div><!-- End Portfolio Container -->
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- Services Section -->
+    <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>Check Our <span class="description-title">Services</span></p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-activity icon"></i></div>
+                <h4><a href="" class="stretched-link">BI Dashboards</a></h4>
+                <p>Dynamic Dashboards for Data Driven Descision Making for Agricultural Professional.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+                <h4><a href="" class="stretched-link">Crop AI</a></h4>
+                <p>Genrative AI model to fetch you your crop details.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+                <h4><a href="" class="stretched-link">Weather Forecast</a></h4>
+                <p>Provides Weather Forecasting Features to plan & develop your cultivation.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                <h4><a href="" class="stretched-link">Yield Prediction</a></h4>
+                <p>Predicting your crop yield to be future ready!!</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section>
+<!-- Faq Section -->
+<section id="faq" class="faq section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Frequently Asked Questions</h2>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="faq-container">
+
+            <div class="faq-item faq-active">
+              <h3>What is Agriware, and how does it help farmers or agricultural professionals?</h3>
+              <div class="faq-content">
+                <p>Agriware is a comprehensive web-based platform designed to aid farmers and agricultural professionals by providing predictive insights into crop yield using advanced machine learning algorithms like Random Forest.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>What is the future scope of Agriware?</h3>
+              <div class="faq-content">
+                <p>Future updates for Agriware include real-time sensor integration for IoT-based data collection, more advanced AI models for higher accuracy.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>How does Agriware predict future crop yields?</h3>
+              <div class="faq-content">
+                <p>Agriware utilizes machine learning models, including the Random Forest algorithm, trained on historical crop data, weather conditions, and soil parameters.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>What kind of data is displayed on the Power BI dashboards?</h3>
+              <div class="faq-content">
+                <p>The Power BI dashboards provide insights into crop production trends, regional crop performance, weather patterns, and soil health. These visualizations allow users to analyze key metrics easily and make data-driven agricultural decisions.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>How does Agriware help with weather forecasting?</h3>
+              <div class="faq-content">
+                <p>Agriware integrates real-time weather APIs to provide accurate forecasts for specific regions. It informs users about upcoming weather conditions.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>What is the Crop AI feature, and how does it work?</h3>
+              <div class="faq-content">
+                <p>The Crop AI feature leverages Generative AI to process natural language queries from users.The AI converts this query into a database query, fetches the relevant data, and displays the result, simplifying complex data access for users.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+          </div>
+
+        </div><!-- End Faq Column-->
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- /Faq Section -->
+<!-- Team Section -->
+    <section id="team" class="team section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p><span>Our</span> <span class="description-title">Project Team</span></p>
+      </div>
+    
+      <div class="container">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Ms.Himani Tiwari</h4>
+                <span>Project Guide</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/rabindra-mishra-18481427b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/RabindraMishra-AIDS" target="_blank" class="github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Rabindra Mishra</h4>
+                <span>Project Developer(Team Lead)</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Ayush Pandey</h4>
+                <span>Consultant</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Khushi Singh</h4>
+                <span>Consultant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock body %}

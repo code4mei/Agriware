@@ -1,5 +1,61 @@
 {% extends "base.html" %}
-{% block title %}about{% endblock title %}
+{% block title %}About{% endblock title %}
 {% block body %}
-<h1>About US Page</h1>
+<!-- About Section -->
+<section id="about" class="about section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>About</h2>
+      <p><span>Learn More</span> <span class="description-title">About Us<br></span></p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row gy-5">
+
+        <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+          <h3>Details about Agriware</h3>
+          <p>
+            Welcome to Agriware, a cutting-edge platform focused on leveraging machine learning to predict crop yields accurately.
+          </p>
+          <a href="#" class="about-btn align-self-center align-self-xl-start"><span>About us</span> <i class="bi bi-chevron-right"></i></a>
+        </div>
+
+        <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+            <div class="col-md-6 icon-box position-relative">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="" class="stretched-link">Location</a></h4>
+              <p>Currently, we are actively working in our college lab(TCET), constantly enhancing our <b>ML models.</b></p>
+            </div><!-- Icon-Box -->
+
+            <div class="col-md-6 icon-box position-relative">
+              <i class="bi bi-gem"></i>
+              <h4><a href="" class="stretched-link">Mission</a></h4>
+              <p>Our mission is to empower farmers and agricultural professionals with <b>data-driven insights</b> that enable better decision-making for improved crop production.</p>
+            </div><!-- Icon-Box -->
+
+            <div class="col-md-6 icon-box position-relative">
+              <i class="bi bi-broadcast"></i>
+              <h4>Updates</h4>
+              <p>Stay tuned as we continue to advance our technology and bring new features to <b>Agriware</b></p>
+            </div><!-- Icon-Box -->
+
+            <div class="col-md-6 icon-box position-relative">
+              <i class="bi bi-easel"></i>
+              <h4><a href="" class="stretched-link">Methodology</a></h4>
+              <p>We utilize advanced machine learning techniques, including the <b>Random Forest algorithm</b>, to predict the future yield of various crops based on historical data.</p>
+            </div><!-- Icon-Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- /About Section -->
 {% endblock body %}
