@@ -13,6 +13,8 @@ Add `STATICFILES_DIRS` in `settings.py`Folder to load static files of your proje
 
 To apply Migrations run `python manage.py migrate`. 
 
+To setup Admin Details run `python manage.py createsuperuser`.
+
 
 Note: `/ == ''`  ie.(empty space)
 
