@@ -23,5 +23,5 @@ Note: `/ == ''`  ie.(empty space)
 - We can use `{% extends "base.html" %}` this will help us to extend the base layout.
 - We can use `{%load static%}` at the top of templates to load static files such as Images,CSS,JS etc.
 - We can use `{% block title%} {% endblock title %}` as template inheritance that a child template can override.
-- In Django while working with post methods we need to include `{%csrf_tokens %}` for security.
+- In Django while working with <b>POST</b> methods we need to include `{%csrf_tokens %}` for security.
 - In Django we have default Admin part `path('admin/', admin.site.urls)`.
