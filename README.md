@@ -25,3 +25,4 @@ Note: `/ == ''`  ie.(empty space)
 - We can use `{% block title%} {% endblock title %}` as template inheritance that a child template can override.
 - In Django while working with <b>POST</b> methods we need to include `{%csrf_tokens %}` for security.
 - In Django we have default Admin part `path('admin/', admin.site.urls)`.
+- return `HttpResponse()` redirects you to 
