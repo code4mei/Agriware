@@ -11,7 +11,7 @@
 
 {% endfor %}
     <h3 class="text-dark">Login</h3>
-    <form action="/auth/signup/" method="post">{% csrf_token %}
+    <form action="/auth/login/" method="post">{% csrf_token %}
         <br>
         <label for="email">Email</label>
         <div class="form-group">
@@ -24,7 +24,7 @@
         </div>
         <br>
         <br>
-        <button type="submit" class="btn btn-dark">Sign Up</button>
+        <button type="submit" class="btn btn-dark">Log in</button>
         <br>
         <br>
         Don't Have Account?<a href="/auth/signup/" class="text-danger">Sign UP</a>
