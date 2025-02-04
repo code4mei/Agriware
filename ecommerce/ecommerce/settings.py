@@ -118,7 +118,7 @@ USE_TZ = True
 
 # Email sending
 EMAIL_HOST="smtp.gmail.com"
-EMAIL_HOST_USER='sambhu311275@gmail.com'
+EMAIL_HOST_USER='agriwareteams@gmail.com'
 EMAIL_HOST_PASSWORD=os.getenv("EMAIL_HOST_PASSWORD")
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
