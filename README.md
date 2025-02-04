@@ -15,6 +15,7 @@ To apply Migrations run `python manage.py migrate`.
 
 To setup Admin Details run `python manage.py createsuperuser`.
 
+Update Domain as per which it is hosted:`authcat folder > views.py`.
 
 Note: `/ == ''`  ie.(empty space)
 
@@ -25,4 +26,5 @@ Note: `/ == ''`  ie.(empty space)
 - We can use `{% block title%} {% endblock title %}` as template inheritance that a child template can override.
 - In Django while working with <b>POST</b> methods we need to include `{%csrf_tokens %}` for security.
 - In Django we have default Admin part `path('admin/', admin.site.urls)`.
-- return `HttpResponse()` redirects you to 
+- return `HttpResponse()` redirects you to.
+- `{% autoescape  off %} {%  autoescape  off  %}` is used to pass content from python file to html file.
