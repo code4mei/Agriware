@@ -82,4 +82,6 @@ def handlelogin(request):
 
 
 def handlelogout(request):
+    logout(request)
+    messages.info(request,"Logout Sucess")
     return redirect('/auth/login')

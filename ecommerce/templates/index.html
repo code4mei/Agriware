@@ -126,11 +126,11 @@ Agriware
     <section id="services" class="services section">
 
         <!-- Section Title -->
+        {% if request.user.is_authenticated  %}
         <div class="container section-title" data-aos="fade-up">
           <h2>Services</h2>
           <p>Check Our <span class="description-title">Services</span></p>
         </div><!-- End Section Title -->
-  
         <div class="container">
   
           <div class="row gy-4">
@@ -170,15 +170,23 @@ Agriware
           </div>
   
         </div>
-  
+        {% else %}
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p> Please<span class="description-title" > Login</span> to use our Services</p>
+          <img src="static/assets/img/servicesignup.png" class="img-fluid" alt="" style="width: 600px; height: 500px;">
+        </div>
+        {% endif %}
       </section>
 <!-- Faq Section -->
 <section id="faq" class="faq section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Frequently Asked Questions</h2>
-    </div><!-- End Section Title -->
+ <div class="container section-title" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+</div>
+  
+    <!-- End Section Title -->
 
     <div class="container">
 
