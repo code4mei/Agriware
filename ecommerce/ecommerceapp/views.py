@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponseForbidden
-from django.core.signing import TimestampSigner, BadSignature
 from django.shortcuts import redirect
 # Create your views here.
 def index(request):
@@ -18,6 +17,3 @@ def prediction(request):
 def index1(request):
     return render(request,"index1.html")
 
-from django.shortcuts import render
-from django.http import HttpResponseForbidden
-from django.core.signing import TimestampSigner
