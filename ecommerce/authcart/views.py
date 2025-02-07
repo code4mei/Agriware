@@ -72,7 +72,6 @@ def handlelogin(request):
 
         if myuser is not None:
             login(request, myuser)
-            messages.success(request, "Login Successful")
             return redirect('/')  # ✅ Redirect to home page
         else:
             messages.error(request, "Invalid Credentials")
