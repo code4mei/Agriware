@@ -49,7 +49,7 @@
           <li><a href="/" class="">Home</a></li>
           <li><a href="/blog" class="">Blog</a></li>
           <li><a href="/about" class="">About</a></li>
-          {% if request.user.is_authenticated  %}
+          {% if request.user.is_authenticated and request.user.username != "admin" %}
           <li class="dropdown"><a href="/auth/logout/"><span>Logout</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul style="margin: 5px; padding: 10px; color: var(--nav-dropdown-color); display: block !important;">
               <li>{{ user.username }}</li>

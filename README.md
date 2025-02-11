@@ -17,6 +17,12 @@ To setup Admin Details run `python manage.py createsuperuser`.
 
 Update Domain as per which it is hosted:`authcat folder > views.py`.
 
+Run `migrations/models.py` whenever we change database tables.
+
+To run migrations `python manage.py makemigrations`.
+
+Updated admin panel to include Contact Tables `admin.site.register(Contact)`.
+
 Note: `/ == ''`  ie.(empty space)
 
 ## Learning Notes

@@ -68,14 +68,20 @@ def handlelogin(request):
         username = request.POST['email']
         userpassword = request.POST['pass1']
 
+        # Check if the user exists
+        if not User.objects.filter(username=username).exists():
+            messages.error(request, "Email does not exist. Please register first.")
+            return redirect('/auth/login/')  # Redirect to login page
+
+        # Authenticate the user
         myuser = authenticate(request, username=username, password=userpassword)
 
         if myuser is not None:
             login(request, myuser)
-            return redirect('/')  # ✅ Redirect to home page
+            return redirect('/')  # Redirect to home page
         else:
-            messages.error(request, "Invalid Credentials")
-            return redirect('/auth/login/')  # ✅ Redirect to login page
+            messages.error(request, "Incorrect password. Please try again.")
+            return redirect('/auth/login/')  # Redirect to login page
 
     return render(request, 'login.html')  # ✅ Ensure 'login.html' exists
 
