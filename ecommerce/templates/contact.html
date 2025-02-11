@@ -16,22 +16,22 @@
     <div class="col-md-6">
         <form action="/contact" method="post">{% csrf_token %}
             <br>
-            <label for="name">Full name</label>
+            <label for="name" class="fw-bold">Full name</label>
             <div class="form-group">
                 <input type="text" class="form-control p-2" id="name" name="name" required >
             </div>
             <br>
-            <label for="email">Email</label>
+            <label for="email" class="fw-bold">Email</label>
             <div class="form-group">
                 <input type="email" class="form-control p-2" id="email" name="email" required value="{{ user.username }}" readonly>
             </div>            
             <br>
-            <label for="desc">How Can I Help You?</label>
+            <label for="desc" class="fw-bold">How Can I Help You?</label>
             <div class="form-group">
                 <textarea class="form-group p-2" id="desc" name="desc" required rows="4" cols="50"></textarea>
             </div>            
             <br>
-            <label for="pnumber">Phone Number</label>
+            <label for="pnumber" class="fw-bold">Phone Number</label>
             <div class="form-group">
                 <input type="text" class="form-control p-2" id="pnumber" name="pnumber" required 
                        pattern="\d{10}" minlength="10" maxlength="10" title="Enter 10 digits">
