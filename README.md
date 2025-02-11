@@ -28,4 +28,4 @@ Note: `/ == ''`  ie.(empty space)
 - In Django we have default Admin part `path('admin/', admin.site.urls)`.
 - return `HttpResponse()` redirects you to.
 - `{% autoescape  off %} {%  autoescape  off  %}` is used to pass content from python file to html file.
--`models.py` file is used to create a Database Tables.
+- `models.py` file is used to create a Database Tables.
