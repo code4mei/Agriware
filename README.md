@@ -1,4 +1,5 @@
 ## Setup of Project
+
 To initialize write: `django-admin startproject` `<Projectname>`.
 
 To create a Application: `python manage.py startapp` `<Appname>`.
@@ -11,7 +12,7 @@ Add `templates` file to `DIRS` List present in `settings.py`.
 
 Add `STATICFILES_DIRS` in `settings.py`Folder to load static files of your project.
 
-To apply Migrations run `python manage.py migrate`. 
+To apply Migrations run `python manage.py migrate`.
 
 To setup Admin Details run `python manage.py createsuperuser`.
 
@@ -23,9 +24,10 @@ To run migrations `python manage.py makemigrations`.
 
 Updated admin panel to include Contact Tables `admin.site.register(Contact)`.
 
-Note: `/ == ''`  ie.(empty space)
+Note: `/ == ''` ie.(empty space)
 
 ## Learning Notes
+
 - Refer to Bootstrap website to check colors supported by Bootstrap.
 - We can use `{% extends "base.html" %}` this will help us to extend the base layout.
 - We can use `{%load static%}` at the top of templates to load static files such as Images,CSS,JS etc.
