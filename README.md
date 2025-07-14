@@ -1,4 +1,4 @@
-# EduCrop
+# Agriware
 Crop Yield Prediction using ML
 Overview
 Agriculture is the backbone of India, yet it remains one of the most under-digitized sectors. With this project, we aim to bridge the gap between technology and farming by introducing a smart, machine learning-based solution that can predict crop yield and recommend optimal crops based on user inputs like location, land area, weather, and season.
